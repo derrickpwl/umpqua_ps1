@@ -1,0 +1,15 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Name="progressBar" Height="90" Width="300" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto" />
+		    <RowDefinition Height="Auto" />
+	    </Grid.RowDefinitions>
+
+        <ProgressBar Grid.Row="0" Name="loadRulesPB" Margin="4" Height="10" IsIndeterminate="True"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="4" Foreground="Black" Text="Loading Rules ..."/>
+    </Grid>
+</Window>
